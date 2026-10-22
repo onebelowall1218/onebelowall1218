@@ -32,10 +32,10 @@
 
 | Project | What it is | Highlights |
 |---|---|---|
-| [**ClassyDiffusion**](https://github.com/onebelowall1218/ClassyDiffusion) | Class-conditional diffusion model, from scratch | 64M params · DDPM + UNet + Attention · trained 12h on a P100 within strict memory limits |
+| [**PyTorch DDPM**](https://github.com/onebelowall1218/ddpm-cifar10-pytorch) | From-scratch class-conditional diffusion model for all 10 CIFAR-10 classes | 6.77M-parameter U-Net · EMA · classifier-free guidance · [released weights](https://huggingface.co/onebelowall/ddpm-cifar10-v66) |
+| [**ClassyDiffusion**](https://github.com/onebelowall1218/ClassyDiffusion) | Earlier, separate TensorFlow/Keras class-conditional DDPM | 64M params · UNet + attention · trained under P100 memory limits |
 | [**Academic Research Paper Assistant**](https://github.com/onebelowall1218/Academic-Research-Paper-Assistant) | Agentic **GraphRAG** over a Neo4j knowledge graph | 4 agents / 4 tools · CrewAI · LangChain · Ollama · LLaMA 3.1 · arXiv API |
 | [**gpt-from-scratch**](https://github.com/onebelowall1218/gpt-from-scratch) | Transformer / GPT implemented from first principles | Attention, blocks, training loop — built to understand the internals |
-| **Real-Time Smart Surveillance** *(TODO: publish)* | YOLOv11 + InsightFace edge pipeline | 35k+ imgs / 12 classes · mAP50 0.70 · 10–15 FPS on Jetson Nano |
 
 ### 🛠️ Tech
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
